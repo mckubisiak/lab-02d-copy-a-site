@@ -8,6 +8,7 @@ body, html {
 * {
     box-sizing: border-box;
     background-color: rgb(231, 231, 231);
+    list-style: none;
 }
 
 body {
@@ -26,7 +27,7 @@ section {
 }
 
 .top-nav {
-    list-style: none;
+    list-style-type: none;
     background-color: darkslategrey;
     color: grey;
     font-size: 1rem;
@@ -37,6 +38,7 @@ section {
     color: grey;
     background-color: darkslategrey;
     text-align: right;
+    padding: 0rem .25rem;
 }
 
 .top-logo {
@@ -71,11 +73,40 @@ section {
 }
 .blue {
     background-color: rgb(16, 0, 245);
-    list-style: none;
+    list-style-type: none;
     color: honeydew;
+    
 }
 .colorless {
     background-color: rgb(90, 90, 90);
     list-style: none;
     color: rgb(12, 14, 12);
 }
+
+.second-nav {
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+    padding: 0rem .5rem;
+}
+.second-naver{
+    padding: 0rem .5rem;
+    border: solid gray 1px ;
+    text-align: right;
+    border-radius: .3rem;
+}
+
+.cube {
+    text-align: left;
+}
+
+.colors ul {
+    border: solid rgb(114, 114, 114) 1px ;
+    border-radius: .5rem;
+}
+
+li {
+    border-radius: .5rem;
+}
+
+ul {text-align: center;}
